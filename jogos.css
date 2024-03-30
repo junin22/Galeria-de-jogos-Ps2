@@ -1,0 +1,154 @@
+
+@import url('https://fonts.cdnfonts.com/css/tt-octosquares-trl');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif
+  
+}
+body,html {
+        background-color: black;
+        background-size: cover; 
+        background-repeat: no-repeat;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+}
+ul{
+  color: white;
+}
+
+nav {
+  display: flex;
+}
+.inici{
+  font-size: 18px;
+  margin: 20px;
+  color: white;
+  font-weight: bold;
+}
+
+nav a {
+  margin-right: 20px;
+  text-decoration: none;
+  color: #333;
+}
+
+nav a:hover {
+  color: #E0E111;
+}
+
+#logoo {
+  max-height: 40px;
+}
+  a{
+    text-decoration: none;
+  }
+  .cima {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.ordenar {
+    display: flex;
+    align-items: center;
+}
+
+.az {
+    margin-left: 380%;
+    display: flex;
+}
+
+.a {
+    margin-right: 10px;
+}
+
+.botao {
+    padding: 5px 10px;
+    background-color: #FF0F7B;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+  .jogosnome{
+    margin-left: -85%;
+  }
+  .titulo-principal{
+    font-size: 50px;
+    font-family: 'TT Octosquares Trial Variable', sans-serif;
+    color: #FF0F7B;
+  }
+
+  .borda-central {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+  }
+    #searchs{
+      margin-top: 19px;
+      margin-left: 60%; 
+    }
+    
+    #searchInput {
+      margin: auto;
+      padding: 10px;
+      width: 280px;
+      border: 1px solid #ccc;
+      margin-bottom: 20px;
+      font-size: 16px;
+    }
+  
+    #searchInput:focus {
+      outline: none;
+      border-color: #E0E111; 
+    }
+  
+    .cartaz {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      grid-gap: 20px;
+    }
+      .jogo {
+        border: 2px solid white;
+        padding: 20px;
+        text-align: center;
+        border-radius: 5px;
+        transition: width 0.5s ease, height 0.5s ease;
+      }
+      .jogo:hover{
+        transform: scale(1.05);
+        border: 2px solid #FF0F7B;
+      }
+        .jogo img {
+          width: 60%; 
+          height: 200px;
+        }
+        .titulo-jogo {
+          color: white;
+          font-size: 100%;
+          margin-top: 10px;
+        }
+        .download-link {
+          display: block;
+          margin-top: 10px;
+          text-decoration: none;
+          color: #E0E111;
+          border: 1px solid #E0E111;
+          background-color: transparent;
+          padding: 5px 10px;
+          
+        }
+          .download-link:hover {
+            color: white;
+          }
+  

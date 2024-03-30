@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogos</title>
+    <link href="https://fonts.cdnfonts.com/css/tt-octosquares-trl" rel="stylesheet">
+    <link rel="stylesheet" href="jogos.css">
+    <script src="script.js"></script>
+  </head>
+  
+<body>
+  <header>
+    <div><a href="index.html"><img src="imagens/logops2gg.png" id="logoo" alt="Logo"></a></div>
+    <nav>
+      <a href="#" class="inici">Tutoriais</a>
+      <a href="#" class="inici">Blog</a>
+      <a href="#" class="inici">Comunidade</a>
+      <a href="#" class="inici">Parceiros</a>
+    </nav>
+  </header>
+  
+  <div class="borda-central">
+    <div class="jogosnome">
+      <a href="jogos.html"><h1 class="titulo-principal">Jogos</h1></a>
+    </div>
+    <div class="cima">
+      <div class="ordenar">
+    <div class="az">
+    <div class="a"><button onclick="ordenarAscendente()" class="botao">Ordenar A-Z</button></div>
+    <div class="a"><button onclick="ordenarDescendente()" class="botao">Ordenar Z-A</button></div>
+    </div>
+  </div>
+    <div id="searchs">
+      <input type="text" id="searchInput" onkeyup="searchGames()" placeholder="Pesquisar jogos..."> 
+    </div>
+    </div>
+    <div id="contenedor-cartaz">
+
+    <div class="cartaz">
+      
+      <div class="jogo">
+        <img src="imagens/black.png" alt="Jogo 1">
+        <h2 class="titulo-jogo">Black</h2>
+        <a href="#" class="download-link" target="_blank" data-id="1">Download</a>
+      </div>
+
+      <div class="jogo">
+        <img src="imagens/god2.png" alt="Jogo 2">
+        <h2 class="titulo-jogo">God of War II</h2>
+        <a href="#" class="download-link" target="_blank" data-id="2">Download</a>
+      </div>
+
+      <div class="jogo">
+        <img src="imagens/gta.png" alt="Jogo 3">
+        <h2 class="titulo-jogo">Grand Theft Auto San Andreas</h2>
+        <a href="#" class="download-link" target="_blank" data-id="3">Download</a>
+      </div>
+
+      <div class="jogo">
+        <img src="imagens/midnight.png" alt="Jogo 4">
+        <h2 class="titulo-jogo">Midnight Club 3: DUB Edition REMIX</h2>
+        <a href="#" class="download-link"  target="_blank" data-id="4">Download</a>
+      </div>
+
+      <div class="jogo">
+        <img src="imagens/residente.png" alt="Jogo 5">
+        <h2 class="titulo-jogo">Resident Evil 4</h2>
+        <a href="#" class="download-link" target="_blank" data-id="5">Download</a>
+      </div>
+
+      <div class="jogo">
+        <img src="imagens/Digimon Rumble Arena 2.png" alt="Jogo 6">
+        <h2 class="titulo-jogo">Digimon Rumble Arena 2</h2>
+        <a href="#" class="download-link" target="_blank" data-id="6">Download</a>
+      </div>
+
+      <div class="jogo">
+        <img src="imagens/Downhill.png" alt="Jogo 7">
+        <h2 class="titulo-jogo">Downhill Domination</h2>
+        <a href="#" class="download-link" target="_blank">Download</a>
+      </div>
+
+      <div class="jogo">
+        <img src="imagens/god1.png" alt="Jogo 8">
+        <h2 class="titulo-jogo">God of War I</h2>
+        <a href="#" class="download-link" target="_blank">Download</a>
+      </div>
+
+      <div class="jogo">
+        <img src="imagens/Need for Speed Under2.png" alt="Jogo 9">
+        <h2 class="titulo-jogo">Need for Speed: Underground 2</h2>
+        <a href="#" class="download-link"target="_blank">Download</a>
+      </div>
+
+      <div class="jogo">
+        <img src="imagens/rumble racing.png" alt="Jogo 10">
+        <h2 class="titulo-jogo">Rumble Racing</h2>
+        <a href="#" class="download-link"target="_blank">Download</a>
+      </div>
+
+      <div class="jogo">
+        <img src="imagens/Tony Hawks 4.png" alt="Jogo 11">
+        <h2 class="titulo-jogo">Tony Hawk's Pro Skater 4</h2>
+        <a href="#" class="download-link"target="_blank">Download</a>
+      </div>
+
+      <div class="jogo">
+        <img src="imagens/dbz budokai tenkaichi 3.png" alt="Jogo 12">
+        <h2 class="titulo-jogo">Dragon Ball Z: Budokai Tenkaichi 3</h2>
+        <a href="#" class="download-link"target="_blank">Download</a>
+      </div>
+
+      <div class="jogo">
+        <img src="imagens/MK shaolin monks.png" alt="Jogo 13">
+        <h2 class="titulo-jogo">Mortal Kombat: Shaolin Monks</h2>
+        <a href="#" class="download-link"target="_blank">Download</a>
+      </div>
+
+      <div class="jogo">
+        <img src="imagens/MK ARMAGEDDON.png" alt="Jogo 14">
+        <h2 class="titulo-jogo">Mortal Kombat: Armageddon</h2>
+        <a href="#" class="download-link"target="_blank">Download</a>
+      </div>
+
+      <div class="jogo">
+        <img src="imagens/Tekken 5.png" alt="Jogo 15">
+        <h2 class="titulo-jogo">Tekken 5</h2>
+        <a href="#" class="download-link"target="_blank">Download</a>
+      </div>
+
+      <div class="jogo">
+        <img src="imagens/Naruto Shippuden Ultimate Ninja 5.png" alt="Jogo 16">
+        <h2 class="titulo-jogo">Naruto Shippuden: Ultimate Ninja 5</h2>
+        <a href="#" class="download-link"target="_blank">Download</a>
+      </div>
+
+      <div class="jogo">
+        <img src="imagens/FIFA Street.png" alt="Jogo 17">
+        <h2 class="titulo-jogo">FIFA Street 2</h2>
+        <a href="#" class="download-link"target="_blank">Download</a>
+      </div>
+
+      <div class="jogo">
+        <img src="imagens/Pro Beach Soccer.png" alt="Jogo 18">
+        <h2 class="titulo-jogo">Pro Beach Soccer</h2>
+        <a href="#" class="download-link"target="_blank">Download</a>
+      </div>
+
+      <div class="jogo">
+        <img src="imagens/Bomba Patch 2024.png" alt="Jogo 19">
+        <h2 class="titulo-jogo">Bomba Patch 2024</h2>
+        <a href="#" class="download-link"target="_blank">Download</a>
+      </div>
+
+      <div class="jogo">
+        <img src="imagens/Snes Station.png" alt="Jogo 20">
+        <h2 class="titulo-jogo">Super Nintendo</h2>
+        <a href="#" class="download-link"target="_blank">Download</a>
+      </div>
+
+      <div class="jogo">
+        <img src="imagens/Def Jam.png" alt="Jogo 21">
+        <h2 class="titulo-jogo">Def Jam: Fight for NY</h2>
+        <a href="#" class="download-link"target="_blank">Download</a>
+      </div>
+
+      <div class="jogo">
+        <img src="imagens/Gran Turismo 4.png" alt="Jogo 22">
+        <h2 class="titulo-jogo">Gran Turismo 4</h2>
+        <a href="#" class="download-link"target="_blank">Download</a>
+      </div>
+
+      <div class="jogo">
+        <img src="imagens/Bully.png" alt="Jogo 23">
+        <h2 class="titulo-jogo">Bully</h2>
+        <a href="#" class="download-link"target="_blank">Download</a>
+      </div>
+
+      <div class="jogo">
+        <img src="imagens/Burnout Revenge.png" alt="Jogo 24">
+        <h2 class="titulo-jogo">Burnout Revenge</h2>
+        <a href="#" class="download-link"target="_blank">Download</a>
+      </div>
+
+      <div class="jogo">
+        <img src="imagens/Ben 10 protection.png" alt="Jogo 25">
+        <h2 class="titulo-jogo">Ben 10: Protector of Earth</h2>
+        <a href="#" class="download-link"target="_blank">Download</a>
+      </div>
+
+      <div class="jogo">
+        <img src="imagens/Ben 10 Ultimate Alien Cosmic Destruction.png" alt="Jogo 26">
+        <h2 class="titulo-jogo">Ben 10 Ultimate Alien: Cosmic Destruction</h2>
+        <a href="#" class="download-link"target="_blank">Download</a>
+      </div>
+
+      <div class="jogo">
+        <img src="imagens/shadow of the colossus.png" alt="Jogo 27">
+        <h2 class="titulo-jogo">Shadow of the Colossus</h2>
+        <a href="#" class="download-link"target="_blank">Download</a>
+      </div>
+
+      <div class="jogo">
+        <img src="imagens/Guita hero 3.png" alt="Jogo 28">
+        <h2 class="titulo-jogo">Guitar Hero III: Legends of Rock</h2>
+        <a href="#" class="download-link"target="_blank">Download</a>
+      </div>
+
+      <div class="jogo">
+        <img src="imagens/burnout 3.png" alt="Jogo 29">
+        <h2 class="titulo-jogo">Burnout 3: Takedown</h2>
+        <a href="#" class="download-link"target="_blank">Download</a>
+      </div>
+
+      <div class="jogo">
+        <img src="imagens/Gta 3.png" alt="Jogo 30">
+        <h2 class="titulo-jogo">Grand Theft Auto III</h2>
+        <a href="#" class="download-link"target="_blank">Download</a>
+      </div>
+
+      <div class="jogo">
+        <img src="imagens/gta vice.png" alt="Jogo 30">
+        <h2 class="titulo-jogo">Grand Theft Auto: Vice City</h2>
+        <a href="#" class="download-link"target="_blank">Download</a>
+      </div>
+
+      <div class="jogo">
+        <img src="imagens/devil.png" alt="Jogo 31">
+        <h2 class="titulo-jogo">Devil May Cry 3: Dante's Awakening</h2>
+        <a href="#" class="download-link"target="_blank">Download</a>
+      </div>
+    </div>
+    </div>
+  </div>
+  </div>
+</body>
+</html>
